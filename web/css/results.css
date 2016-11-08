@@ -1,0 +1,66 @@
+.scroll-img {
+	border: 1px solid #ccc;
+	width: 680px;
+	height: 175px;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.scroll-img ul {
+	width: 700px;
+	height: 600px;
+	margin: 0;
+}
+
+.scroll-img ul li {
+	display: inline-block;
+	margin: 10px 0 10px 10px;
+}
+
+#carousel {
+	margin: 0 auto;
+}
+
+#carousel.scroll-img ul {
+	width: 5000px;
+	margin-left: -40px;
+}
+
+#carousel-btn {
+	width: 680px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.image {
+	cursor: pointer;
+	max-width: 124px;
+}
+
+.popup {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 50px;
+	left: 0;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+}
+
+
+.popup_img {
+	position: relative;
+	margin: 0 auto;
+	z-index: 2;
+	max-height: 90%;
+	max-width: 90%;
+	margin: 1% 0 0 0;
+}
