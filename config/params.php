@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'CountImages'	=> 10,
+	'CountImages'	=> 100,
 	'GAppName'	=> 'Google Image Search',
 	'GClientID'	=> '[Your Google Client Id]',
 	'GClientSecret'	=> '[Your Google Client Secret]',
